@@ -11,9 +11,9 @@
 
 ### Task 1: Project Set-up
 
-* [ ] **Fork** this repository, then clone your fork.
-* [ ] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
-* [ ] Execute `npm run start` to launch your Movies application in Chrome.
+* [x] **Fork** this repository, then clone your fork.
+* [x] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
+* [x] Execute `npm run start` to launch your Movies application in Chrome.
 
 **Once your application is up and running**, you should see a browser window that looks like [this](https://tk-assets.lambdaschool.com/c6b3e8d8-afe0-4663-82da-60b1de76f649_movies-home.png) at `http://localhost:3000`.
 
@@ -28,10 +28,10 @@ Once you are done your application will have two routes:
 
 #### Set up Routes
 
-* [ ] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
-* [ ] Inside your App file add two routes.
-  * [ ] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
-  * [ ] one route that will take an `id` parameter after`/movies/` (EG: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
+* [x] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
+* [x] Inside your App file add two routes.
+  * [x] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
+  * [x] one route that will take an `id` parameter after`/movies/` (EG: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
 #### Add Functionality
 
